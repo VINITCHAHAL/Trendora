@@ -1,9 +1,0 @@
-# Ignore Git-related files
-.gitignore/
-
-# Ignore Django migration files
-**/migrations/
-
-# Ignore __pycache__ directories
-**/__pycache__/
-**/venv/**
