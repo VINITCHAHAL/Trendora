@@ -135,6 +135,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 AUTH_USER_MODEL = 'UserServices.Users'
 
 SIMPLE_JWT = {
@@ -156,3 +157,6 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
+=======
+AUTH_USER_MODEL = 'UserServices.Users'
+>>>>>>> 0d8bd2e82c9c08402f543c54e3e4bc2a7f603974
